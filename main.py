@@ -1,11 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from matplotlib.gridspec import GridSpec
 
-
-def create_box_dot_plot(csv_file, output_file=None, width=12, height=8):
+def create_box_dot_plot(csv_file, output_file=None, width=14, height=10):
     """
-    Creates a combined box and dot plot for JMeter sampler latencies.
+    Creates a combined box and dot plot for JMeter sampler latencies with summary statistics.
 
     Parameters:
     -----------
@@ -14,14 +14,16 @@ def create_box_dot_plot(csv_file, output_file=None, width=12, height=8):
     output_file : str, optional
         Path to save the output image. If None, the plot will be displayed.
     width : int, optional
-        Width of the plot in inches. Default is 12.
+        Width of the plot in inches. Default is 14.
     height : int, optional
-        Height of the plot in inches. Default is 8.
+        Height of the plot in inches. Default is 10.
 
     Returns:
     --------
     fig, ax : matplotlib figure and axis objects
         The generated plot
+    df_stats : pandas DataFrame
+        Summary statistics for each sampler
     """
     # Read the JMeter CSV file
     df = pd.read_csv(csv_file, sep=',')
@@ -36,40 +38,107 @@ def create_box_dot_plot(csv_file, output_file=None, width=12, height=8):
     # Drop rows with missing latency values
     df = df.dropna(subset=['Latency'])
 
+    # Calculate statistics for each sampler
+    stats = df.groupby('label')['Latency'].agg([
+        ('count', 'count'),
+        ('min', 'min'),
+        ('q1', lambda x: x.quantile(0.25)),
+        ('median', 'median'),
+        ('mean', 'mean'),
+        ('q3', lambda x: x.quantile(0.75)),
+        ('max', 'max'),
+        ('std', 'std'),
+        ('90p', lambda x: x.quantile(0.90)),
+        ('95p', lambda x: x.quantile(0.95)),
+        ('99p', lambda x: x.quantile(0.99))
+    ]).reset_index()
+
     # Sort samplers by median latency for better visualization
-    sampler_medians = df.groupby('label')['Latency'].median().sort_values()
+    stats = stats.sort_values('median')
+    sampler_order = stats['label'].tolist()
+
     df['label_sorted'] = pd.Categorical(
         df['label'],
-        categories=sampler_medians.index,
+        categories=sampler_order,
         ordered=True
     )
 
-    # Create the figure
-    fig, ax = plt.subplots(figsize=(width, height))
+    # Create the figure with a grid layout
+    fig = plt.figure(figsize=(width, height))
+    gs = GridSpec(2, 1, height_ratios=[3, 1], figure=fig)
 
-    # Create a combined box and swarm plot
-    # First create the box plot for the statistical summary
-    sns.boxplot(x='label_sorted', y='Latency', data=df, ax=ax,
+    # Plot area for box-dot plot
+    ax_plot = fig.add_subplot(gs[0])
+
+    # Create a combined box and strip plot
+    sns.boxplot(x='label_sorted', y='Latency', data=df, ax=ax_plot,
                 color='lightgray', width=0.5)
 
-    # Overlay with the dot plot showing individual points
-    sns.stripplot(x='label_sorted', y='Latency', data=df, ax=ax,
+    sns.stripplot(x='label_sorted', y='Latency', data=df, ax=ax_plot,
                   jitter=True, alpha=0.5, size=4)
 
     # Customize the plot
-    plt.title('JMeter Sampler Latency: Box Plot with Individual Data Points', fontsize=14)
-    plt.xlabel('Sampler', fontsize=12)
-    plt.ylabel('Latency (ms)', fontsize=12)
-    plt.xticks(rotation=45, ha='right')
-    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    ax_plot.set_title('JMeter Sampler Latency: Box Plot with Individual Data Points', fontsize=14)
+    ax_plot.set_xlabel('')  # Remove x label as it will be in the table
+    ax_plot.set_ylabel('Latency (ms)', fontsize=12)
+    ax_plot.set_xticklabels([])  # Hide x tick labels as they will be in the table
+    ax_plot.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # Create a table for the statistics
+    ax_table = fig.add_subplot(gs[1])
+    ax_table.axis('off')  # Hide the axes
+
+    # Format statistics for display
+    display_stats = stats.copy()
+
+    # Round numeric columns to 1 decimal place
+    numeric_cols = display_stats.columns.drop('label')
+    display_stats[numeric_cols] = display_stats[numeric_cols].round(1)
+
+    # Convert to string for display formatting
+    display_stats = display_stats.astype(str)
+
+    # Select columns for the table (to avoid it being too wide)
+    table_cols = ['label', 'count', 'min', 'q1', 'median', 'mean', 'q3', 'max', '95p']
+    table_data = display_stats[table_cols].values.tolist()
+
+    # Add the column headers
+    column_labels = ['Sampler', 'Count', 'Min', 'Q1', 'Median', 'Mean', 'Q3', 'Max', '95th %']
+
+    # Create the table
+    table = ax_table.table(
+        cellText=table_data,
+        colLabels=column_labels,
+        loc='center',
+        cellLoc='center',
+        colWidths=[0.2] + [0.1] * (len(column_labels) - 1)
+    )
+
+    # Style the table
+    table.auto_set_font_size(False)
+    table.set_fontsize(9)
+    table.scale(1, 1.5)  # Make rows a bit taller
+
+    # Color alternating rows for readability
+    for i, row in enumerate(table_data):
+        for j in range(len(column_labels)):
+            cell = table[(i + 1, j)]  # +1 to skip header row
+            if i % 2 == 0:
+                cell.set_facecolor('#f0f0f0')
+
+    # Header row styling
+    for j, col in enumerate(column_labels):
+        cell = table[(0, j)]
+        cell.set_facecolor('#c0c0c0')
+        cell.set_text_props(weight='bold')
+
     plt.tight_layout()
 
     # Save or display the plot
     if output_file:
         plt.savefig(output_file, dpi=300, bbox_inches='tight')
 
-    return fig, ax
-
+    return fig, ax_plot, stats
 
 def create_latency_elapsed_scatter(csv_file, output_file=None, width=12, height=10,
                                    color_by_sampler=True, add_identity_line=True):
@@ -178,7 +247,7 @@ if __name__ == "__main__":
     jmeter_file = 'output.csv'  # Change to your file path
 
     # Create the box-dot plot and save it
-    box_fig, box_ax = create_box_dot_plot(jmeter_file, 'jmeter_latency_box_dot.png')
+    box_fig, box_ax, box_stats_df = create_box_dot_plot(jmeter_file, 'jmeter_latency_box_dot.png')
     plt.close(box_fig)  # Close the figure to avoid displaying it immediately
 
     # Create the scatter plot and save it
