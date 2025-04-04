@@ -3,9 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.gridspec import GridSpec
 
-def create_box_dot_plot(csv_file, output_file=None, width=14, height=10):
+def create_box_dot_plot(csv_file, output_file=None, width=14, height=14):
     """
-    Creates a combined box and dot plot for JMeter sampler latencies with summary statistics.
+    Creates a combined horizontal box and dot plot for JMeter sampler latencies with summary statistics.
+    Table remains at the bottom with increased overall height.
 
     Parameters:
     -----------
@@ -16,7 +17,7 @@ def create_box_dot_plot(csv_file, output_file=None, width=14, height=10):
     width : int, optional
         Width of the plot in inches. Default is 14.
     height : int, optional
-        Height of the plot in inches. Default is 10.
+        Height of the plot in inches. Default is 14 (increased from original).
 
     Returns:
     --------
@@ -63,28 +64,27 @@ def create_box_dot_plot(csv_file, output_file=None, width=14, height=10):
         ordered=True
     )
 
-    # Create the figure with a grid layout
+    # Create the figure with a grid layout - keep vertical layout but increase height
     fig = plt.figure(figsize=(width, height))
-    gs = GridSpec(2, 1, height_ratios=[3, 1], figure=fig)
+    gs = GridSpec(2, 1, height_ratios=[4, 1], figure=fig)  # Increased ratio for plot area
 
-    # Plot area for box-dot plot
+    # Plot area for horizontal box-dot plot
     ax_plot = fig.add_subplot(gs[0])
 
-    # Create a combined box and strip plot
-    sns.boxplot(x='label_sorted', y='Latency', data=df, ax=ax_plot,
-                color='lightgray', width=0.5)
+    # Create a combined horizontal box and strip plot
+    sns.boxplot(y='label_sorted', x='Latency', data=df, ax=ax_plot,
+                color='lightgray', width=0.5, orient='h')
 
-    sns.stripplot(x='label_sorted', y='Latency', data=df, ax=ax_plot,
-                  jitter=True, alpha=0.5, size=4)
+    sns.stripplot(y='label_sorted', x='Latency', data=df, ax=ax_plot,
+                  jitter=True, alpha=0.5, size=4, orient='h')
 
     # Customize the plot
-    ax_plot.set_title('JMeter Sampler Latency: Box Plot with Individual Data Points', fontsize=14)
-    ax_plot.set_xlabel('')  # Remove x label as it will be in the table
-    ax_plot.set_ylabel('Latency (ms)', fontsize=12)
-    ax_plot.set_xticklabels([])  # Hide x tick labels as they will be in the table
-    ax_plot.grid(axis='y', linestyle='--', alpha=0.7)
+    ax_plot.set_title('JMeter Sampler Latency: Horizontal Box Plot with Individual Data Points', fontsize=14)
+    ax_plot.set_ylabel('Sampler', fontsize=12)
+    ax_plot.set_xlabel('Latency (ms)', fontsize=12)
+    ax_plot.grid(axis='x', linestyle='--', alpha=0.7)
 
-    # Create a table for the statistics
+    # Create a table for the statistics (at the bottom)
     ax_table = fig.add_subplot(gs[1])
     ax_table.axis('off')  # Hide the axes
 
