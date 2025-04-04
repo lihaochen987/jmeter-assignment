@@ -3,9 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.gridspec import GridSpec
 
-def create_box_dot_plot(csv_file, output_file=None, width=14, height=14):
+
+def create_box_violin_plot(csv_file, output_file=None, width=14, height=14):
     """
-    Creates a combined horizontal box and dot plot for JMeter sampler latencies with summary statistics.
+    Creates a combined horizontal box and violin plot for JMeter sampler latencies with summary statistics.
     Table remains at the bottom with increased overall height.
 
     Parameters:
@@ -26,6 +27,11 @@ def create_box_dot_plot(csv_file, output_file=None, width=14, height=14):
     df_stats : pandas DataFrame
         Summary statistics for each sampler
     """
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    from matplotlib.gridspec import GridSpec
+    import seaborn as sns
+
     # Read the JMeter CSV file
     df = pd.read_csv(csv_file, sep=',')
 
@@ -68,18 +74,19 @@ def create_box_dot_plot(csv_file, output_file=None, width=14, height=14):
     fig = plt.figure(figsize=(width, height))
     gs = GridSpec(2, 1, height_ratios=[4, 1], figure=fig)  # Increased ratio for plot area
 
-    # Plot area for horizontal box-dot plot
+    # Plot area for horizontal box-violin plot
     ax_plot = fig.add_subplot(gs[0])
 
-    # Create a combined horizontal box and strip plot
-    sns.boxplot(y='label_sorted', x='Latency', data=df, ax=ax_plot,
-                color='lightgray', width=0.5, orient='h')
+    # Create a violin plot first (it will be in the background)
+    sns.violinplot(y='label_sorted', x='Latency', data=df, ax=ax_plot,
+                   scale='width', inner=None, color='lightblue', alpha=0.6, orient='h')
 
-    sns.stripplot(y='label_sorted', x='Latency', data=df, ax=ax_plot,
-                  jitter=True, alpha=0.5, size=4, orient='h')
+    # Overlay a boxplot (it will be in the foreground)
+    sns.boxplot(y='label_sorted', x='Latency', data=df, ax=ax_plot,
+                color='white', width=0.3, boxprops={'zorder': 2}, orient='h')
 
     # Customize the plot
-    ax_plot.set_title('JMeter Sampler Latency: Horizontal Box Plot with Individual Data Points', fontsize=14)
+    ax_plot.set_title('JMeter Sampler Latency: Horizontal Box and Violin Plot', fontsize=14)
     ax_plot.set_ylabel('Sampler', fontsize=12)
     ax_plot.set_xlabel('Latency (ms)', fontsize=12)
     ax_plot.grid(axis='x', linestyle='--', alpha=0.7)
@@ -247,7 +254,7 @@ if __name__ == "__main__":
     jmeter_file = 'output.csv'  # Change to your file path
 
     # Create the box-dot plot and save it
-    box_fig, box_ax, box_stats_df = create_box_dot_plot(jmeter_file, 'jmeter_latency_box_dot.png')
+    box_fig, box_ax, box_stats_df = create_box_violin_plot(jmeter_file, 'jmeter_latency_box_dot.png')
     plt.close(box_fig)  # Close the figure to avoid displaying it immediately
 
     # Create the scatter plot and save it
