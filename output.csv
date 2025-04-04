@@ -1,0 +1,779 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1743658683357,677,Extract Product IDs,200,OK,Thread Group 1-1,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,673,0,291
+1743658683420,679,Extract Product IDs,200,OK,Thread Group 1-2,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,679,0,290
+1743658683467,649,Extract Product IDs,200,OK,Thread Group 1-3,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,644,0,283
+1743658683514,673,Extract Product IDs,200,OK,Thread Group 1-4,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,667,0,290
+1743658683561,692,Extract Product IDs,200,OK,Thread Group 1-5,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,678,0,287
+1743658683609,664,Extract Product IDs,200,OK,Thread Group 1-6,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,658,0,283
+1743658683655,668,Extract Product IDs,200,OK,Thread Group 1-7,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,660,0,285
+1743658683719,676,Extract Product IDs,200,OK,Thread Group 1-8,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,669,0,287
+1743658683767,676,Extract Product IDs,200,OK,Thread Group 1-9,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,669,0,285
+1743658683814,657,Extract Product IDs,200,OK,Thread Group 1-10,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,646,0,285
+1743658683861,655,Extract Product IDs,200,OK,Thread Group 1-11,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,647,0,282
+1743658683909,647,Extract Product IDs,200,OK,Thread Group 1-12,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,647,0,284
+1743658683956,656,Extract Product IDs,200,OK,Thread Group 1-13,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,647,0,286
+1743658684020,699,Extract Product IDs,200,OK,Thread Group 1-14,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,696,0,311
+1743658684067,690,Extract Product IDs,200,OK,Thread Group 1-15,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,686,0,321
+1743658684155,686,Extract Product IDs,200,OK,Thread Group 1-17,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,680,0,317
+1743658684111,776,Extract Product IDs,200,OK,Thread Group 1-16,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,772,0,397
+1743658684204,703,Extract Product IDs,200,OK,Thread Group 1-18,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,699,0,312
+1743658684254,691,Extract Product IDs,200,OK,Thread Group 1-19,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,687,0,318
+1743658684314,776,Extract Product IDs,200,OK,Thread Group 1-20,text,true,,2931,793,20,20,https://api.demoblaze.com/entries,772,0,324
+1743658694115,639,HomePage,200,OK,Thread Group 1-1,text,true,,4994,805,20,20,https://demoblaze.com/index.html,630,0,286
+1743658673355,1316,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,7925,1598,20,20,null,1303,20083,577
+1743658694263,629,HomePage,200,OK,Thread Group 1-4,text,true,,5198,805,20,20,https://demoblaze.com/index.html,620,0,285
+1743658673505,1302,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8129,1598,20,20,null,1287,20085,575
+1743658694457,684,HomePage,200,OK,Thread Group 1-7,text,true,,19902,805,20,20,https://demoblaze.com/index.html,634,0,287
+1743658673655,1352,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-7,,true,,22833,1598,20,20,null,1294,20133,572
+1743658694502,643,HomePage,200,OK,Thread Group 1-2,text,true,,5215,805,20,20,https://demoblaze.com/index.html,631,0,292
+1743658673412,1322,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,8146,1598,20,20,null,1310,20410,582
+1743658694612,685,HomePage,200,OK,Thread Group 1-10,text,true,,19902,805,20,20,https://demoblaze.com/index.html,635,0,289
+1743658673804,1342,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-10,,true,,22833,1598,20,20,null,1281,20150,574
+1743658694963,422,HomePage,200,OK,Thread Group 1-18,text,true,,5017,805,20,20,https://demoblaze.com/index.html,411,0,284
+1743658674204,1125,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-18,,true,,7948,1598,20,20,null,1110,20055,596
+1743658694843,664,HomePage,200,OK,Thread Group 1-5,text,true,,19902,805,20,20,https://demoblaze.com/index.html,610,0,286
+1743658673555,1356,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,22833,1598,20,20,null,1288,20595,573
+1743658695222,441,HomePage,200,OK,Thread Group 1-17,text,true,,5277,805,20,20,https://demoblaze.com/index.html,431,0,297
+1743658674154,1127,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-17,,true,,8208,1598,20,20,null,1111,20381,614
+1743658695322,429,HomePage,200,OK,Thread Group 1-11,text,true,,5104,805,20,20,https://demoblaze.com/index.html,420,0,291
+1743658673853,1084,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-11,,true,,8035,1598,20,20,null,1067,20814,573
+1743658695320,475,HomePage,200,OK,Thread Group 1-9,text,true,,19902,805,20,20,https://demoblaze.com/index.html,419,0,290
+1743658673755,1151,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-9,,true,,22833,1598,20,20,null,1088,20889,575
+1743658695173,672,HomePage,200,OK,Thread Group 1-15,text,true,,19902,805,20,20,https://demoblaze.com/index.html,622,0,286
+1743658674053,1362,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-15,,true,,22833,1598,20,20,null,1308,20430,607
+1743658695191,685,HomePage,200,OK,Thread Group 1-13,text,true,,19902,805,20,20,https://demoblaze.com/index.html,634,0,300
+1743658673953,1341,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-13,,true,,22833,1598,20,20,null,1281,20581,586
+1743658695229,674,HomePage,200,OK,Thread Group 1-19,text,true,,19902,805,20,20,https://demoblaze.com/index.html,624,0,290
+1743658674253,1365,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-19,,true,,22833,1598,20,20,null,1311,20285,608
+1743658695528,433,HomePage,200,OK,Thread Group 1-6,text,true,,5111,805,20,20,https://demoblaze.com/index.html,422,0,291
+1743658673604,1097,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-6,,true,,8042,1598,20,20,null,1080,21259,574
+1743658695320,680,HomePage,200,OK,Thread Group 1-14,text,true,,19902,805,20,20,https://demoblaze.com/index.html,630,0,287
+1743658674004,1379,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-14,,true,,22833,1598,20,20,null,1326,20616,598
+1743658695399,619,HomePage,200,OK,Thread Group 1-20,text,true,,5193,805,20,20,https://demoblaze.com/index.html,609,0,477
+1743658674304,1395,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-20,,true,,8124,1598,20,20,null,1381,20318,801
+1743658695616,468,HomePage,200,OK,Thread Group 1-8,text,true,,19902,805,20,20,https://demoblaze.com/index.html,418,0,288
+1743658673703,1144,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-8,,true,,22833,1598,20,20,null,1087,21236,575
+1743658695688,422,HomePage,200,OK,Thread Group 1-12,text,true,,5217,805,20,20,https://demoblaze.com/index.html,412,0,284
+1743658673903,1069,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-12,,true,,8148,1598,20,20,null,1059,21137,568
+1743658695973,422,HomePage,200,OK,Thread Group 1-16,text,true,,5031,805,20,20,https://demoblaze.com/index.html,411,0,286
+1743658674103,1198,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-16,,true,,7962,1598,20,20,null,1183,21093,683
+1743658696682,471,HomePage,200,OK,Thread Group 1-3,text,true,,19902,805,20,20,https://demoblaze.com/index.html,421,0,285
+1743658673459,1120,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,22833,1598,20,20,null,1065,22573,568
+1743658704761,482,Product,200,OK,Thread Group 1-1,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=1,388,0,0
+1743658704904,401,Product,200,OK,Thread Group 1-4,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=5,350,0,0
+1743658705140,399,Product,200,OK,Thread Group 1-7,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=8,354,0,0
+1743658705157,411,Product,200,OK,Thread Group 1-2,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=2,361,0,0
+1743658705395,194,Product,200,OK,Thread Group 1-18,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=8,141,0,0
+1743658705299,566,Product,200,OK,Thread Group 1-10,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=7,424,0,0
+1743658705522,403,Product,200,OK,Thread Group 1-5,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=7,361,0,0
+1743658705808,185,Product,200,OK,Thread Group 1-9,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=5,143,0,0
+1743658705665,416,Product,200,OK,Thread Group 1-17,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=1,364,0,0
+1743658705761,440,Product,200,OK,Thread Group 1-11,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=8,388,0,0
+1743658705855,380,Product,200,OK,Thread Group 1-15,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=1,338,0,0
+1743658705887,382,Product,200,OK,Thread Group 1-13,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=8,340,0,0
+1743658705904,381,Product,200,OK,Thread Group 1-19,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=8,339,0,0
+1743658705999,392,Product,200,OK,Thread Group 1-14,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=4,353,0,0
+1743658706031,410,Product,200,OK,Thread Group 1-20,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=2,360,0,0
+1743658706110,396,Product,200,OK,Thread Group 1-12,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=3,346,0,0
+1743658705967,560,Product,200,OK,Thread Group 1-6,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=7,410,0,0
+1743658706094,499,Product,200,OK,Thread Group 1-8,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=3,451,0,0
+1743658706395,397,Product,200,OK,Thread Group 1-16,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=3,345,0,0
+1743658707142,456,Product,200,OK,Thread Group 1-3,text,true,,22101,811,20,20,https://demoblaze.com/prod.html?idp_=2,405,0,0
+1743658715244,413,Add To Cart,200,OK,Thread Group 1-1,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,413,0,0
+1743658694755,895,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,22400,1879,20,20,null,801,20009,0
+1743658715308,409,Add To Cart,200,OK,Thread Group 1-4,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,409,0,0
+1743658694894,810,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,22352,1879,20,20,null,759,20016,0
+1743658715547,400,Add To Cart,200,OK,Thread Group 1-7,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,400,0,0
+1743658695141,799,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-7,,true,,22352,1879,20,20,null,754,20009,0
+1743658715563,402,Add To Cart,200,OK,Thread Group 1-2,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,402,0,0
+1743658695145,813,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,22352,1879,20,20,null,763,20008,0
+1743658715594,399,Add To Cart,200,OK,Thread Group 1-18,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,399,0,0
+1743658695385,593,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-18,,true,,22352,1879,20,20,null,540,20016,0
+1743658715865,393,Add To Cart,200,OK,Thread Group 1-10,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,393,0,0
+1743658695297,959,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-10,,true,,22400,1879,20,20,null,817,20003,0
+1743658715928,416,Add To Cart,200,OK,Thread Group 1-5,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,416,0,0
+1743658695507,819,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,22352,1879,20,20,null,777,20019,0
+1743658715992,436,Add To Cart,200,OK,Thread Group 1-9,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,436,0,0
+1743658695796,621,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-9,,true,,22352,1879,20,20,null,579,20012,0
+1743658716087,393,Add To Cart,200,OK,Thread Group 1-17,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,393,0,0
+1743658695663,809,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-17,,true,,22352,1879,20,20,null,757,20009,0
+1743658716199,369,Add To Cart,200,OK,Thread Group 1-11,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,369,0,0
+1743658695752,809,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-11,,true,,22400,1879,20,20,null,757,20008,0
+1743658716246,402,Add To Cart,200,OK,Thread Group 1-15,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,402,0,0
+1743658695846,782,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-15,,true,,22352,1879,20,20,null,740,20021,0
+1743658716278,382,Add To Cart,200,OK,Thread Group 1-13,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,382,0,0
+1743658695876,764,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-13,,true,,22352,1879,20,20,null,722,20021,0
+1743658716294,493,Add To Cart,200,OK,Thread Group 1-19,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,493,0,0
+1743658695904,874,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-19,,true,,22352,1879,20,20,null,832,20010,0
+1743658716390,412,Add To Cart,200,OK,Thread Group 1-14,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,412,0,0
+1743658696000,804,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-14,,true,,22352,1879,20,20,null,765,20000,0
+1743658716454,384,Add To Cart,200,OK,Thread Group 1-20,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,384,0,0
+1743658696018,794,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-20,,true,,22352,1879,20,20,null,744,20027,0
+1743658716596,370,Add To Cart,200,OK,Thread Group 1-8,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,370,0,0
+1743658696084,869,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-8,,true,,22400,1879,20,20,null,821,20014,0
+1743658716532,449,Add To Cart,200,OK,Thread Group 1-6,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,449,0,0
+1743658695961,1009,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-6,,true,,22400,1879,20,20,null,859,20012,0
+1743658716786,563,Add To Cart,200,OK,Thread Group 1-16,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,563,0,0
+1743658696395,960,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-16,,true,,22352,1879,20,20,null,908,19995,0
+1743658716517,1002,Add To Cart,200,OK,Thread Group 1-12,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,1002,0,0
+1743658696110,1398,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-12,,true,,22352,1879,20,20,null,1348,20012,0
+1743658717598,391,Add To Cart,200,OK,Thread Group 1-3,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,391,0,0
+1743658697153,847,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,22404,1879,20,20,null,796,19991,0
+1743658725659,436,Extract Cart Items,200,OK,Thread Group 1-1,text,true,,489,1004,20,20,https://demoblaze.com/viewcart,435,0,0
+1743658725721,381,Extract Cart Items,200,OK,Thread Group 1-4,text,true,,738,1004,20,20,https://demoblaze.com/viewcart,379,0,0
+1743658725972,383,Extract Cart Items,200,OK,Thread Group 1-2,text,true,,631,1004,20,20,https://demoblaze.com/viewcart,383,0,0
+1743658725956,399,Extract Cart Items,200,OK,Thread Group 1-7,text,true,,731,1004,20,20,https://demoblaze.com/viewcart,399,0,0
+1743658726002,379,Extract Cart Items,200,OK,Thread Group 1-18,text,true,,652,1004,20,20,https://demoblaze.com/viewcart,375,0,0
+1743658726248,378,Extract Cart Items,200,OK,Thread Group 1-10,text,true,,615,1004,20,20,https://demoblaze.com/viewcart,378,0,0
+1743658726355,400,Extract Cart Items,200,OK,Thread Group 1-5,text,true,,689,1004,20,20,https://demoblaze.com/viewcart,398,0,0
+1743658726433,360,Extract Cart Items,200,OK,Thread Group 1-9,text,true,,617,1004,20,20,https://demoblaze.com/viewcart,358,0,0
+1743658726480,367,Extract Cart Items,200,OK,Thread Group 1-17,text,true,,710,1004,20,20,https://demoblaze.com/viewcart,367,0,0
+1743658726574,369,Extract Cart Items,200,OK,Thread Group 1-11,text,true,,610,1004,20,20,https://demoblaze.com/viewcart,366,0,0
+1743658726652,361,Extract Cart Items,200,OK,Thread Group 1-15,text,true,,572,1004,20,20,https://demoblaze.com/viewcart,359,0,0
+1743658726667,376,Extract Cart Items,200,OK,Thread Group 1-13,text,true,,555,1004,20,20,https://demoblaze.com/viewcart,375,0,0
+1743658726791,371,Extract Cart Items,200,OK,Thread Group 1-19,text,true,,719,1004,20,20,https://demoblaze.com/viewcart,369,0,0
+1743658726806,375,Extract Cart Items,200,OK,Thread Group 1-14,text,true,,660,1004,20,20,https://demoblaze.com/viewcart,372,0,0
+1743658726851,378,Extract Cart Items,200,OK,Thread Group 1-20,text,true,,689,1004,20,20,https://demoblaze.com/viewcart,371,0,0
+1743658726975,359,Extract Cart Items,200,OK,Thread Group 1-8,text,true,,607,1004,20,20,https://demoblaze.com/viewcart,355,0,0
+1743658726990,360,Extract Cart Items,200,OK,Thread Group 1-6,text,true,,534,1004,20,20,https://demoblaze.com/viewcart,360,0,0
+1743658727347,387,Extract Cart Items,200,OK,Thread Group 1-16,text,true,,612,1004,20,20,https://demoblaze.com/viewcart,386,0,0
+1743658727534,366,Extract Cart Items,200,OK,Thread Group 1-12,text,true,,515,1004,20,20,https://demoblaze.com/viewcart,365,0,0
+1743658727985,364,Extract Cart Items,200,OK,Thread Group 1-3,text,true,,515,1004,20,20,https://demoblaze.com/viewcart,360,0,0
+1743658736385,343,Cart,200,OK,Thread Group 1-7,text,true,,5816,804,20,20,https://demoblaze.com/cart.html,334,0,0
+1743658736684,356,Cart,200,OK,Thread Group 1-10,text,true,,6054,804,20,20,https://demoblaze.com/cart.html,346,0,0
+1743658736762,358,Cart,200,OK,Thread Group 1-2,text,true,,5852,804,20,20,https://demoblaze.com/cart.html,352,0,0
+1743658737093,133,Cart,200,OK,Thread Group 1-1,text,true,,6002,804,20,20,https://demoblaze.com/cart.html,127,0,0
+1743658736997,345,Cart,200,OK,Thread Group 1-4,text,true,,6002,804,20,20,https://demoblaze.com/cart.html,345,0,0
+1743658737060,341,Cart,200,OK,Thread Group 1-5,text,true,,5898,804,20,20,https://demoblaze.com/cart.html,332,0,0
+1743658737127,333,Cart,200,OK,Thread Group 1-18,text,true,,5854,804,20,20,https://demoblaze.com/cart.html,323,0,0
+1743658737411,150,Cart,200,OK,Thread Group 1-6,text,true,,5856,804,20,20,https://demoblaze.com/cart.html,135,0,0
+1743658737450,133,Cart,200,OK,Thread Group 1-15,text,true,,5712,804,20,20,https://demoblaze.com/cart.html,124,0,0
+1743658737536,138,Cart,200,OK,Thread Group 1-19,text,true,,6119,804,20,20,https://demoblaze.com/cart.html,130,0,0
+1743658737590,138,Cart,200,OK,Thread Group 1-9,text,true,,5790,804,20,20,https://demoblaze.com/cart.html,130,0,0
+1743658737896,137,Cart,200,OK,Thread Group 1-11,text,true,,6094,804,20,20,https://demoblaze.com/cart.html,127,0,0
+1743658738070,137,Cart,200,OK,Thread Group 1-12,text,true,,5711,804,20,20,https://demoblaze.com/cart.html,131,0,0
+1743658738114,137,Cart,200,OK,Thread Group 1-13,text,true,,6025,804,20,20,https://demoblaze.com/cart.html,131,0,0
+1743658738145,134,Cart,200,OK,Thread Group 1-8,text,true,,5846,804,20,20,https://demoblaze.com/cart.html,129,0,0
+1743658737958,355,Cart,200,OK,Thread Group 1-17,text,true,,5755,804,20,20,https://demoblaze.com/cart.html,347,0,0
+1743658738366,135,Cart,200,OK,Thread Group 1-20,text,true,,5782,804,20,20,https://demoblaze.com/cart.html,127,0,0
+1743658738418,336,Cart,200,OK,Thread Group 1-14,text,true,,6063,804,20,20,https://demoblaze.com/cart.html,328,0,0
+1743658739009,137,Cart,200,OK,Thread Group 1-16,text,true,,5853,804,20,20,https://demoblaze.com/cart.html,129,0,0
+1743658740214,388,Cart,200,OK,Thread Group 1-3,text,true,,5969,804,20,20,https://demoblaze.com/cart.html,220,0,0
+1743658746728,892,Delete Cart,200,OK,Thread Group 1-7,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,892,0,287
+1743658715948,1634,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-7,,true,,6859,2816,20,20,null,1625,30038,287
+1743658747045,679,Delete Cart,200,OK,Thread Group 1-10,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,679,0,287
+1743658716258,1413,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-10,,true,,6981,2816,20,20,null,1403,30054,287
+1743658747124,706,Delete Cart,200,OK,Thread Group 1-2,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,706,0,283
+1743658715965,1447,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,6795,2816,20,20,null,1441,30418,283
+1743658747235,705,Delete Cart,200,OK,Thread Group 1-1,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,705,0,300
+1743658715658,1274,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6803,2816,20,20,null,1267,31009,300
+1743658747353,695,Delete Cart,200,OK,Thread Group 1-4,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,695,0,283
+1743658715719,1421,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,7052,2816,20,20,null,1419,30908,283
+1743658747407,683,Delete Cart,200,OK,Thread Group 1-5,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,683,0,297
+1743658716344,1424,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,6899,2816,20,20,null,1413,30322,297
+1743658747472,694,Delete Cart,200,OK,Thread Group 1-18,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,694,0,286
+1743658715993,1406,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-18,,true,,6818,2816,20,20,null,1392,30767,286
+1743658747567,705,Delete Cart,200,OK,Thread Group 1-6,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,705,0,297
+1743658716981,1215,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-6,,true,,6702,2816,20,20,null,1200,30077,297
+1743658747594,694,Delete Cart,200,OK,Thread Group 1-15,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,694,0,282
+1743658716648,1188,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-15,,true,,6596,2816,20,20,null,1177,30453,282
+1743658747685,697,Delete Cart,200,OK,Thread Group 1-19,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,697,0,291
+1743658716787,1206,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-19,,true,,7150,2816,20,20,null,1196,30390,291
+1743658747739,703,Delete Cart,200,OK,Thread Group 1-9,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,703,0,289
+1743658716428,1201,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-9,,true,,6719,2816,20,20,null,1191,30813,289
+1743658748041,684,Delete Cart,200,OK,Thread Group 1-11,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,684,0,283
+1743658716568,1190,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-11,,true,,7016,2816,20,20,null,1177,30967,283
+1743658748211,684,Delete Cart,200,OK,Thread Group 1-12,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,684,0,288
+1743658717519,1187,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-12,,true,,6538,2816,20,20,null,1180,30189,288
+1743658748251,694,Delete Cart,200,OK,Thread Group 1-13,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,694,0,292
+1743658716660,1207,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-13,,true,,6892,2816,20,20,null,1200,31078,292
+1743658748291,728,Delete Cart,200,OK,Thread Group 1-8,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,728,0,288
+1743658716966,1221,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-8,,true,,6765,2816,20,20,null,1212,30832,288
+1743658748318,749,Delete Cart,200,OK,Thread Group 1-17,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,749,0,281
+1743658716480,1471,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-17,,true,,6777,2816,20,20,null,1463,31117,281
+1743658748502,703,Delete Cart,200,OK,Thread Group 1-20,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,703,0,300
+1743658716838,1216,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-20,,true,,6783,2816,20,20,null,1201,31155,300
+1743658748753,688,Delete Cart,200,OK,Thread Group 1-14,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,688,0,286
+1743658716803,1399,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-14,,true,,7035,2816,20,20,null,1388,31240,286
+1743658749147,689,Delete Cart,200,OK,Thread Group 1-16,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,689,0,281
+1743658717349,1213,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-16,,true,,6777,2816,20,20,null,1204,31274,281
+1743658750610,705,Delete Cart,200,OK,Thread Group 1-3,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,705,0,291
+1743658717990,1457,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,6796,2816,20,20,null,1285,31867,291
+1743658757623,0,Debug Sampler,200,OK,Thread Group 1-7,text,true,,767,0,20,20,null,0,0,0
+1743658757740,1,Debug Sampler,200,OK,Thread Group 1-10,text,true,,736,0,20,20,null,0,0,0
+1743658757832,0,Debug Sampler,200,OK,Thread Group 1-2,text,true,,655,0,20,20,null,0,0,0
+1743658757948,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,716,0,20,20,null,0,0,0
+1743658758048,0,Debug Sampler,200,OK,Thread Group 1-4,text,true,,774,0,20,20,null,0,0,0
+1743658758090,0,Debug Sampler,200,OK,Thread Group 1-5,text,true,,736,0,20,20,null,0,0,0
+1743658758166,0,Debug Sampler,200,OK,Thread Group 1-18,text,true,,768,0,20,20,null,0,0,0
+1743658758277,0,Debug Sampler,200,OK,Thread Group 1-6,text,true,,736,0,20,20,null,0,0,0
+1743658758290,0,Debug Sampler,200,OK,Thread Group 1-15,text,true,,717,0,20,20,null,0,0,0
+1743658758373,0,Debug Sampler,200,OK,Thread Group 1-19,text,true,,768,0,20,20,null,0,0,0
+1743658758447,0,Debug Sampler,200,OK,Thread Group 1-9,text,true,,774,0,20,20,null,0,0,0
+1743658758736,0,Debug Sampler,200,OK,Thread Group 1-11,text,true,,768,0,20,20,null,0,0,0
+1743658758900,0,Debug Sampler,200,OK,Thread Group 1-12,text,true,,651,0,20,20,null,0,0,0
+1743658758944,0,Debug Sampler,200,OK,Thread Group 1-13,text,true,,767,0,20,20,null,0,0,0
+1743658759026,0,Debug Sampler,200,OK,Thread Group 1-8,text,true,,650,0,20,20,null,0,0,0
+1743658759078,0,Debug Sampler,200,OK,Thread Group 1-17,text,true,,717,0,20,20,null,0,0,0
+1743658759215,0,Debug Sampler,200,OK,Thread Group 1-20,text,true,,657,0,20,20,null,0,0,0
+1743658759452,0,Debug Sampler,200,OK,Thread Group 1-14,text,true,,715,0,20,20,null,0,0,0
+1743658759845,0,Debug Sampler,200,OK,Thread Group 1-16,text,true,,650,0,20,20,null,0,0,0
+1743658761324,1,Debug Sampler,200,OK,Thread Group 1-3,text,true,,656,0,20,20,null,0,0,0
+1743658767634,711,Extract Product IDs,200,OK,Thread Group 1-7,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,707,0,292
+1743658767745,683,Extract Product IDs,200,OK,Thread Group 1-10,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,674,0,286
+1743658767855,660,Extract Product IDs,200,OK,Thread Group 1-2,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,654,0,290
+1743658767961,686,Extract Product IDs,200,OK,Thread Group 1-1,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,680,0,282
+1743658768056,675,Extract Product IDs,200,OK,Thread Group 1-4,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,671,0,283
+1743658768093,660,Extract Product IDs,200,OK,Thread Group 1-5,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,655,0,282
+1743658768169,676,Extract Product IDs,200,OK,Thread Group 1-18,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,671,0,282
+1743658768286,656,Extract Product IDs,200,OK,Thread Group 1-6,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,652,0,287
+1743658768299,657,Extract Product IDs,200,OK,Thread Group 1-15,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,651,0,278
+1743658768386,707,Extract Product IDs,200,OK,Thread Group 1-19,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,704,0,285
+1743658768449,680,Extract Product IDs,200,OK,Thread Group 1-9,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,677,0,283
+1743658768743,643,Extract Product IDs,200,OK,Thread Group 1-11,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,639,0,285
+1743658768912,660,Extract Product IDs,200,OK,Thread Group 1-12,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,656,0,286
+1743658768958,674,Extract Product IDs,200,OK,Thread Group 1-13,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,670,0,286
+1743658769035,641,Extract Product IDs,200,OK,Thread Group 1-8,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,637,0,283
+1743658769082,662,Extract Product IDs,200,OK,Thread Group 1-17,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,659,0,288
+1743658769222,678,Extract Product IDs,200,OK,Thread Group 1-20,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,670,0,288
+1743658769453,738,Extract Product IDs,200,OK,Thread Group 1-14,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,736,0,285
+1743658769887,840,Extract Product IDs,200,OK,Thread Group 1-16,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,830,0,448
+1743658771337,658,Extract Product IDs,200,OK,Thread Group 1-3,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,655,0,285
+1743658778447,674,HomePage,200,OK,Thread Group 1-10,text,true,,19906,805,20,20,https://demoblaze.com/index.html,624,0,290
+1743658757743,1357,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-10,,true,,22837,1611,20,20,null,1298,20021,576
+1743658779154,459,HomePage,200,OK,Thread Group 1-9,text,true,,19906,805,20,20,https://demoblaze.com/index.html,409,0,285
+1743658758447,1139,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-9,,true,,22837,1611,20,20,null,1086,20028,568
+1743658779087,683,HomePage,200,OK,Thread Group 1-4,text,true,,19902,805,20,20,https://demoblaze.com/index.html,633,0,288
+1743658758049,1358,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,22833,1611,20,20,null,1304,20363,571
+1743658779383,467,HomePage,200,OK,Thread Group 1-19,text,true,,19906,805,20,20,https://demoblaze.com/index.html,417,0,289
+1743658758374,1174,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-19,,true,,22837,1611,20,20,null,1121,20302,574
+1743658779409,466,HomePage,200,OK,Thread Group 1-5,text,true,,19906,805,20,20,https://demoblaze.com/index.html,417,0,289
+1743658758090,1126,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,22837,1611,20,20,null,1072,20660,571
+1743658779348,626,HomePage,200,OK,Thread Group 1-18,text,true,,5323,805,20,20,https://demoblaze.com/index.html,616,0,290
+1743658758166,1302,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-18,,true,,8254,1611,20,20,null,1287,20535,572
+1743658779368,641,HomePage,200,OK,Thread Group 1-1,text,true,,5295,805,20,20,https://demoblaze.com/index.html,630,0,295
+1743658757949,1327,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8226,1611,20,20,null,1310,20733,577
+1743658779657,573,HomePage,200,OK,Thread Group 1-13,text,true,,19906,805,20,20,https://demoblaze.com/index.html,421,0,289
+1743658758944,1247,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-13,,true,,22837,1611,20,20,null,1091,20039,575
+1743658779485,761,HomePage,200,OK,Thread Group 1-15,text,true,,19902,805,20,20,https://demoblaze.com/index.html,613,0,289
+1743658758290,1418,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-15,,true,,22833,1611,20,20,null,1264,20538,567
+1743658779693,699,HomePage,200,OK,Thread Group 1-12,text,true,,5170,805,20,20,https://demoblaze.com/index.html,691,0,283
+1743658758901,1359,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-12,,true,,8101,1611,20,20,null,1347,20133,569
+1743658779376,1097,HomePage,200,OK,Thread Group 1-7,text,true,,19902,805,20,20,https://demoblaze.com/index.html,912,0,692
+1743658757624,1808,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-7,,true,,22833,1611,20,20,null,1619,21078,984
+1743658779964,602,HomePage,200,OK,Thread Group 1-17,text,true,,19902,805,20,20,https://demoblaze.com/index.html,550,0,420
+1743658759078,1264,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-17,,true,,22833,1611,20,20,null,1209,20225,708
+1743658779990,591,HomePage,200,OK,Thread Group 1-8,text,true,,5034,805,20,20,https://demoblaze.com/index.html,579,0,450
+1743658759026,1232,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-8,,true,,7965,1611,20,20,null,1216,20323,733
+1743658780564,680,HomePage,200,OK,Thread Group 1-2,text,true,,19902,805,20,20,https://demoblaze.com/index.html,623,0,289
+1743658757843,1340,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,22833,1611,20,20,null,1277,22061,579
+1743658780903,821,HomePage,200,OK,Thread Group 1-20,text,true,,19902,805,20,20,https://demoblaze.com/index.html,769,0,638
+1743658759216,1499,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-20,,true,,22833,1611,20,20,null,1439,21009,926
+1743658781575,465,HomePage,200,OK,Thread Group 1-6,text,true,,19902,805,20,20,https://demoblaze.com/index.html,415,0,285
+1743658758278,1121,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-6,,true,,22833,1611,20,20,null,1067,22641,572
+1743658781833,471,HomePage,200,OK,Thread Group 1-11,text,true,,19902,805,20,20,https://demoblaze.com/index.html,421,0,287
+1743658758736,1114,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-11,,true,,22833,1611,20,20,null,1060,22455,572
+1743658782328,427,HomePage,200,OK,Thread Group 1-14,text,true,,5184,805,20,20,https://demoblaze.com/index.html,419,0,288
+1743658759453,1165,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-14,,true,,8115,1611,20,20,null,1155,22137,573
+1743658782377,654,HomePage,200,OK,Thread Group 1-16,text,true,,19902,805,20,20,https://demoblaze.com/index.html,604,0,478
+1743658759878,1494,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-16,,true,,22833,1611,20,20,null,1434,21659,926
+1743658783825,469,HomePage,200,OK,Thread Group 1-3,text,true,,19906,805,20,20,https://demoblaze.com/index.html,417,0,287
+1743658761325,1127,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,22837,1611,20,20,null,1072,21842,572
+1743658789121,362,Product,200,OK,Thread Group 1-10,text,true,,5437,811,20,20,https://demoblaze.com/prod.html?idp_=2,361,0,0
+1743658789615,481,Product,200,OK,Thread Group 1-9,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=6,481,0,0
+1743658789850,581,Product,200,OK,Thread Group 1-19,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=4,573,0,0
+1743658790003,483,Product,200,OK,Thread Group 1-18,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=1,433,0,0
+1743658789877,741,Product,200,OK,Thread Group 1-5,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=9,597,0,0
+1743658790230,418,Product,200,OK,Thread Group 1-13,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=3,388,0,0
+1743658790009,642,Product,200,OK,Thread Group 1-1,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=9,486,0,0
+1743658789770,949,Product,200,OK,Thread Group 1-4,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=2,909,0,0
+1743658790246,499,Product,200,OK,Thread Group 1-15,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=9,442,0,0
+1743658790510,364,Product,200,OK,Thread Group 1-7,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=6,235,0,0
+1743658790391,483,Product,200,OK,Thread Group 1-12,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=5,354,0,0
+1743658790566,451,Product,200,OK,Thread Group 1-17,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=7,451,0,0
+1743658790581,468,Product,200,OK,Thread Group 1-8,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=1,436,0,0
+1743658791243,551,Product,200,OK,Thread Group 1-2,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=2,406,0,0
+1743658791724,239,Product,200,OK,Thread Group 1-20,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=2,197,0,0
+1743658792039,437,Product,200,OK,Thread Group 1-6,text,true,,22053,811,20,20,https://demoblaze.com/prod.html?idp_=8,397,0,0
+1743658792303,353,Product,200,OK,Thread Group 1-11,text,true,,5687,811,20,20,https://demoblaze.com/prod.html?idp_=3,345,0,0
+1743658792754,510,Product,200,OK,Thread Group 1-14,text,true,,22101,811,20,20,https://demoblaze.com/prod.html?idp_=8,418,0,0
+1743658793031,390,Product,200,OK,Thread Group 1-16,text,true,,22053,811,20,20,https://demoblaze.com/prod.html?idp_=6,345,0,0
+1743658794305,397,Product,200,OK,Thread Group 1-3,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=2,355,0,0
+1743658799488,419,Add To Cart,200,OK,Thread Group 1-10,text,true,,307,1068,20,20,https://api.demoblaze.com/addtocart,419,0,0
+1743658779121,781,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-10,,true,,5744,1879,20,20,null,780,20007,0
+1743658800111,433,Add To Cart,200,OK,Thread Group 1-9,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,433,0,0
+1743658779614,914,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-9,,true,,22352,1879,20,20,null,914,20017,0
+1743658800440,410,Add To Cart,200,OK,Thread Group 1-19,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,410,0,0
+1743658779850,991,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-19,,true,,22400,1879,20,20,null,983,20011,0
+1743658800488,404,Add To Cart,200,OK,Thread Group 1-18,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,404,0,0
+1743658780003,887,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-18,,true,,22352,1879,20,20,null,837,20003,0
+1743658800659,381,Add To Cart,200,OK,Thread Group 1-1,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,381,0,0
+1743658780009,1023,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,22400,1879,20,20,null,867,20010,0
+1743658800659,394,Add To Cart,200,OK,Thread Group 1-13,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,394,0,0
+1743658780230,812,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-13,,true,,22352,1879,20,20,null,782,20012,0
+1743658800643,417,Add To Cart,200,OK,Thread Group 1-5,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,417,0,0
+1743658779876,1158,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,22352,1879,20,20,null,1014,20028,0
+1743658800719,404,Add To Cart,200,OK,Thread Group 1-4,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,404,0,0
+1743658779770,1353,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,22352,1879,20,20,null,1313,20001,0
+1743658800751,404,Add To Cart,200,OK,Thread Group 1-15,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,404,0,0
+1743658780246,903,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-15,,true,,22400,1879,20,20,null,846,20007,0
+1743658800890,377,Add To Cart,200,OK,Thread Group 1-12,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,377,0,0
+1743658780393,860,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-12,,true,,22352,1879,20,20,null,731,20015,0
+1743658800875,414,Add To Cart,200,OK,Thread Group 1-7,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,414,0,0
+1743658780510,778,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-7,,true,,22352,1879,20,20,null,649,20035,0
+1743658801029,402,Add To Cart,200,OK,Thread Group 1-17,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,402,0,0
+1743658780567,853,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-17,,true,,22352,1879,20,20,null,853,20012,0
+1743658801060,375,Add To Cart,200,OK,Thread Group 1-8,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,375,0,0
+1743658780581,843,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-8,,true,,22352,1879,20,20,null,811,20012,0
+1743658801809,397,Add To Cart,200,OK,Thread Group 1-2,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,397,0,0
+1743658781244,948,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,22352,1879,20,20,null,803,20015,0
+1743658801967,391,Add To Cart,200,OK,Thread Group 1-20,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,391,0,0
+1743658781724,630,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-20,,true,,22352,1879,20,20,null,588,20005,0
+1743658802479,383,Add To Cart,200,OK,Thread Group 1-6,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,383,0,0
+1743658782040,820,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-6,,true,,22356,1879,20,20,null,780,20004,0
+1743658802681,400,Add To Cart,200,OK,Thread Group 1-11,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,400,0,0
+1743658782305,753,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-11,,true,,5990,1879,20,20,null,745,20024,0
+1743658803273,389,Add To Cart,200,OK,Thread Group 1-14,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,389,0,0
+1743658782755,899,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-14,,true,,22404,1879,20,20,null,807,20009,0
+1743658803430,381,Add To Cart,200,OK,Thread Group 1-16,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,381,0,0
+1743658783031,771,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-16,,true,,22356,1879,20,20,null,726,20010,0
+1743658804704,417,Add To Cart,200,OK,Thread Group 1-3,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,417,0,0
+1743658784294,814,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,22352,1879,20,20,null,772,20015,0
+1743658809917,481,Extract Cart Items,200,OK,Thread Group 1-10,text,true,,630,1004,20,20,https://demoblaze.com/viewcart,473,0,0
+1743658810556,391,Extract Cart Items,200,OK,Thread Group 1-9,text,true,,628,1004,20,20,https://demoblaze.com/viewcart,391,0,0
+1743658810852,381,Extract Cart Items,200,OK,Thread Group 1-19,text,true,,584,1004,20,20,https://demoblaze.com/viewcart,375,0,0
+1743658810899,390,Extract Cart Items,200,OK,Thread Group 1-18,text,true,,514,1004,20,20,https://demoblaze.com/viewcart,385,0,0
+1743658811055,367,Extract Cart Items,200,OK,Thread Group 1-1,text,true,,712,1004,20,20,https://demoblaze.com/viewcart,367,0,0
+1743658811055,370,Extract Cart Items,200,OK,Thread Group 1-13,text,true,,605,1004,20,20,https://demoblaze.com/viewcart,368,0,0
+1743658811071,366,Extract Cart Items,200,OK,Thread Group 1-5,text,true,,556,1004,20,20,https://demoblaze.com/viewcart,364,0,0
+1743658811133,360,Extract Cart Items,200,OK,Thread Group 1-4,text,true,,706,1004,20,20,https://demoblaze.com/viewcart,360,0,0
+1743658811164,359,Extract Cart Items,200,OK,Thread Group 1-15,text,true,,591,1004,20,20,https://demoblaze.com/viewcart,355,0,0
+1743658811272,377,Extract Cart Items,200,OK,Thread Group 1-12,text,true,,612,1004,20,20,https://demoblaze.com/viewcart,373,0,0
+1743658811334,372,Extract Cart Items,200,OK,Thread Group 1-7,text,true,,640,1004,20,20,https://demoblaze.com/viewcart,370,0,0
+1743658811442,359,Extract Cart Items,200,OK,Thread Group 1-17,text,true,,642,1004,20,20,https://demoblaze.com/viewcart,356,0,0
+1743658811442,365,Extract Cart Items,200,OK,Thread Group 1-8,text,true,,612,1004,20,20,https://demoblaze.com/viewcart,360,0,0
+1743658812215,361,Extract Cart Items,200,OK,Thread Group 1-2,text,true,,558,1004,20,20,https://demoblaze.com/viewcart,361,0,0
+1743658812371,389,Extract Cart Items,200,OK,Thread Group 1-20,text,true,,730,1004,20,20,https://demoblaze.com/viewcart,386,0,0
+1743658812868,363,Extract Cart Items,200,OK,Thread Group 1-6,text,true,,721,1004,20,20,https://demoblaze.com/viewcart,363,0,0
+1743658813089,342,Extract Cart Items,200,OK,Thread Group 1-11,text,true,,502,1004,20,20,https://demoblaze.com/viewcart,340,0,0
+1743658813671,349,Extract Cart Items,200,OK,Thread Group 1-14,text,true,,554,1004,20,20,https://demoblaze.com/viewcart,349,0,0
+1743658813826,372,Extract Cart Items,200,OK,Thread Group 1-16,text,true,,577,1004,20,20,https://demoblaze.com/viewcart,364,0,0
+1743658815135,362,Extract Cart Items,200,OK,Thread Group 1-3,text,true,,590,1004,20,20,https://demoblaze.com/viewcart,358,0,0
+1743658821807,353,Cart,200,OK,Thread Group 1-7,text,true,,5852,804,20,20,https://demoblaze.com/cart.html,344,0,0
+1743658822066,137,Cart,200,OK,Thread Group 1-4,text,true,,5801,804,20,20,https://demoblaze.com/cart.html,131,0,0
+1743658821934,355,Cart,200,OK,Thread Group 1-1,text,true,,5817,804,20,20,https://demoblaze.com/cart.html,345,0,0
+1743658822107,352,Cart,200,OK,Thread Group 1-9,text,true,,5815,804,20,20,https://demoblaze.com/cart.html,347,0,0
+1743658822195,348,Cart,200,OK,Thread Group 1-15,text,true,,6017,804,20,20,https://demoblaze.com/cart.html,339,0,0
+1743658822435,139,Cart,200,OK,Thread Group 1-10,text,true,,6042,804,20,20,https://demoblaze.com/cart.html,131,0,0
+1743658822626,136,Cart,200,OK,Thread Group 1-13,text,true,,5749,804,20,20,https://demoblaze.com/cart.html,128,0,0
+1743658822669,339,Cart,200,OK,Thread Group 1-2,text,true,,5869,804,20,20,https://demoblaze.com/cart.html,333,0,0
+1743658822804,350,Cart,200,OK,Thread Group 1-18,text,true,,5821,804,20,20,https://demoblaze.com/cart.html,342,0,0
+1743658822930,356,Cart,200,OK,Thread Group 1-17,text,true,,5897,804,20,20,https://demoblaze.com/cart.html,348,0,0
+1743658823022,340,Cart,200,OK,Thread Group 1-8,text,true,,5734,804,20,20,https://demoblaze.com/cart.html,332,0,0
+1743658823066,341,Cart,200,OK,Thread Group 1-12,text,true,,5956,804,20,20,https://demoblaze.com/cart.html,337,0,0
+1743658823093,352,Cart,200,OK,Thread Group 1-19,text,true,,5797,804,20,20,https://demoblaze.com/cart.html,344,0,0
+1743658823270,341,Cart,200,OK,Thread Group 1-20,text,true,,5825,804,20,20,https://demoblaze.com/cart.html,333,0,0
+1743658823556,135,Cart,200,OK,Thread Group 1-5,text,true,,5904,804,20,20,https://demoblaze.com/cart.html,128,0,0
+1743658823631,134,Cart,200,OK,Thread Group 1-6,text,true,,5913,804,20,20,https://demoblaze.com/cart.html,126,0,0
+1743658823637,138,Cart,200,OK,Thread Group 1-11,text,true,,5914,804,20,20,https://demoblaze.com/cart.html,126,0,0
+1743658824786,343,Cart,200,OK,Thread Group 1-16,text,true,,5849,804,20,20,https://demoblaze.com/cart.html,343,0,0
+1743658826108,133,Cart,200,OK,Thread Group 1-14,text,true,,5875,804,20,20,https://demoblaze.com/cart.html,128,0,0
+1743658826181,143,Cart,200,OK,Thread Group 1-3,text,true,,5907,804,20,20,https://demoblaze.com/cart.html,134,0,0
+1743658832160,672,Delete Cart,200,OK,Thread Group 1-7,text,true,,316,1008,20,20,https://api.demoblaze.com/deletecart,672,0,284
+1743658801322,1397,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-7,,true,,6808,2816,20,20,null,1386,30112,284
+1743658832204,694,Delete Cart,200,OK,Thread Group 1-4,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,694,0,284
+1743658801123,1191,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,6819,2816,20,20,null,1185,30583,284
+1743658832289,689,Delete Cart,200,OK,Thread Group 1-1,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,689,0,289
+1743658801041,1411,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6841,2816,20,20,null,1401,30525,289
+1743658832459,695,Delete Cart,200,OK,Thread Group 1-9,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,695,0,289
+1743658800544,1438,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-9,,true,,6755,2816,20,20,null,1433,31226,289
+1743658832570,674,Delete Cart,200,OK,Thread Group 1-15,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,674,0,280
+1743658801155,1381,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-15,,true,,6920,2816,20,20,null,1368,30708,280
+1743658832575,689,Delete Cart,200,OK,Thread Group 1-10,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,689,0,289
+1743658799908,1309,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-10,,true,,6984,2816,20,20,null,1293,32046,289
+1743658832762,675,Delete Cart,200,OK,Thread Group 1-13,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,675,0,280
+1743658801053,1181,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-13,,true,,6666,2816,20,20,null,1171,31202,280
+1743658833009,686,Delete Cart,200,OK,Thread Group 1-2,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,686,0,287
+1743658802206,1386,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,6739,2816,20,20,null,1380,30117,287
+1743658833154,703,Delete Cart,200,OK,Thread Group 1-18,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,703,0,294
+1743658800892,1443,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-18,,true,,6647,2816,20,20,null,1430,31522,294
+1743658833287,674,Delete Cart,200,OK,Thread Group 1-17,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,674,0,284
+1743658801431,1389,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-17,,true,,6851,2816,20,20,null,1378,31140,284
+1743658833362,685,Delete Cart,200,OK,Thread Group 1-8,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,685,0,285
+1743658801435,1390,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-8,,true,,6658,2816,20,20,null,1377,31221,285
+1743658833408,697,Delete Cart,200,OK,Thread Group 1-12,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,697,0,285
+1743658801267,1415,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-12,,true,,6880,2816,20,20,null,1407,31422,285
+1743658833445,670,Delete Cart,200,OK,Thread Group 1-19,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,670,0,282
+1743658800851,1403,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-19,,true,,6693,2816,20,20,null,1389,31860,282
+1743658833612,685,Delete Cart,200,OK,Thread Group 1-20,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,685,0,289
+1743658802358,1415,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-20,,true,,6867,2816,20,20,null,1404,30524,289
+1743658833692,680,Delete Cart,200,OK,Thread Group 1-5,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,680,0,287
+1743658801061,1181,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,6772,2816,20,20,null,1172,32129,287
+1743658833776,676,Delete Cart,200,OK,Thread Group 1-11,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,676,0,284
+1743658803081,1156,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-11,,true,,6728,2816,20,20,null,1142,30214,284
+1743658833765,693,Delete Cart,200,OK,Thread Group 1-6,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,693,0,295
+1743658802863,1190,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-6,,true,,6946,2816,20,20,null,1182,30405,295
+1743658835130,1142,Delete Cart,200,OK,Thread Group 1-16,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,1142,0,749
+1743658803811,1857,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-16,,true,,6738,2816,20,20,null,1849,30603,749
+1743658836247,860,Delete Cart,200,OK,Thread Group 1-14,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,860,0,401
+1743658803662,1342,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-14,,true,,6741,2816,20,20,null,1337,32102,401
+1743658836326,858,Delete Cart,200,OK,Thread Group 1-3,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,858,0,464
+1743658805122,1363,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,6809,2816,20,20,null,1350,30699,464
+1743658842835,0,Debug Sampler,200,OK,Thread Group 1-7,text,true,,735,0,20,20,null,0,0,0
+1743658842911,1,Debug Sampler,200,OK,Thread Group 1-4,text,true,,656,0,20,20,null,0,0,0
+1743658842989,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,847,0,20,20,null,0,0,0
+1743658843221,0,Debug Sampler,200,OK,Thread Group 1-9,text,true,,735,0,20,20,null,0,0,0
+1743658843252,0,Debug Sampler,200,OK,Thread Group 1-15,text,true,,848,0,20,20,null,0,0,0
+1743658843268,0,Debug Sampler,200,OK,Thread Group 1-10,text,true,,656,0,20,20,null,0,0,0
+1743658843440,1,Debug Sampler,200,OK,Thread Group 1-13,text,true,,650,0,20,20,null,0,0,0
+1743658843724,0,Debug Sampler,200,OK,Thread Group 1-2,text,true,,655,0,20,20,null,0,0,0
+1743658843866,0,Debug Sampler,200,OK,Thread Group 1-18,text,true,,717,0,20,20,null,0,0,0
+1743658843975,0,Debug Sampler,200,OK,Thread Group 1-17,text,true,,737,0,20,20,null,0,0,0
+1743658844052,0,Debug Sampler,200,OK,Thread Group 1-8,text,true,,716,0,20,20,null,0,0,0
+1743658844113,1,Debug Sampler,200,OK,Thread Group 1-12,text,true,,775,0,20,20,null,0,0,0
+1743658844129,0,Debug Sampler,200,OK,Thread Group 1-19,text,true,,715,0,20,20,null,0,0,0
+1743658844303,0,Debug Sampler,200,OK,Thread Group 1-20,text,true,,657,0,20,20,null,0,0,0
+1743658844380,0,Debug Sampler,200,OK,Thread Group 1-5,text,true,,847,0,20,20,null,0,0,0
+1743658844458,1,Debug Sampler,200,OK,Thread Group 1-11,text,true,,651,0,20,20,null,0,0,0
+1743658844458,1,Debug Sampler,200,OK,Thread Group 1-6,text,true,,767,0,20,20,null,0,0,0
+1743658846275,0,Debug Sampler,200,OK,Thread Group 1-16,text,true,,735,0,20,20,null,0,0,0
+1743658847116,0,Debug Sampler,200,OK,Thread Group 1-14,text,true,,768,0,20,20,null,0,0,0
+1743658847195,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,656,0,20,20,null,0,0,0
+1743658852850,665,Extract Product IDs,200,OK,Thread Group 1-7,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,661,0,289
+1743658852914,637,Extract Product IDs,200,OK,Thread Group 1-4,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,631,0,285
+1743658852991,666,Extract Product IDs,200,OK,Thread Group 1-1,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,662,0,284
+1743658853223,670,Extract Product IDs,200,OK,Thread Group 1-9,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,664,0,288
+1743658853270,635,Extract Product IDs,200,OK,Thread Group 1-10,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,630,0,281
+1743658853255,726,Extract Product IDs,200,OK,Thread Group 1-15,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,723,0,284
+1743658853453,671,Extract Product IDs,200,OK,Thread Group 1-13,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,667,0,283
+1743658853730,664,Extract Product IDs,200,OK,Thread Group 1-2,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,658,0,282
+1743658853900,648,Extract Product IDs,200,OK,Thread Group 1-18,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,642,0,294
+1743658853977,649,Extract Product IDs,200,OK,Thread Group 1-17,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,645,0,281
+1743658854068,668,Extract Product IDs,200,OK,Thread Group 1-8,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,662,0,296
+1743658854115,677,Extract Product IDs,200,OK,Thread Group 1-12,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,672,0,293
+1743658854131,664,Extract Product IDs,200,OK,Thread Group 1-19,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,657,0,285
+1743658854316,637,Extract Product IDs,200,OK,Thread Group 1-20,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,631,0,288
+1743658854394,649,Extract Product IDs,200,OK,Thread Group 1-5,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,643,0,282
+1743658854474,669,Extract Product IDs,200,OK,Thread Group 1-6,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,665,0,286
+1743658854474,677,Extract Product IDs,200,OK,Thread Group 1-11,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,671,0,286
+1743658856277,649,Extract Product IDs,200,OK,Thread Group 1-16,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,645,0,283
+1743658857119,656,Extract Product IDs,200,OK,Thread Group 1-14,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,649,0,291
+1743658857196,647,Extract Product IDs,200,OK,Thread Group 1-3,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,641,0,288
+1743658864252,686,HomePage,200,OK,Thread Group 1-15,text,true,,19902,805,20,20,https://demoblaze.com/index.html,637,0,298
+1743658843253,1412,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-15,,true,,22833,1611,20,20,null,1360,20274,582
+1743658864444,626,HomePage,200,OK,Thread Group 1-1,text,true,,5099,805,20,20,https://demoblaze.com/index.html,612,0,284
+1743658842989,1292,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,8030,1611,20,20,null,1274,20790,568
+1743658864733,621,HomePage,200,OK,Thread Group 1-4,text,true,,5311,805,20,20,https://demoblaze.com/index.html,609,0,286
+1743658842912,1258,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,8242,1611,20,20,null,1240,21186,571
+1743658864563,903,HomePage,200,OK,Thread Group 1-10,text,true,,19902,805,20,20,https://demoblaze.com/index.html,853,0,517
+1743658843269,1538,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-10,,true,,22833,1611,20,20,null,1483,20661,798
+1743658864882,671,HomePage,200,OK,Thread Group 1-2,text,true,,19902,805,20,20,https://demoblaze.com/index.html,621,0,290
+1743658843725,1335,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,22833,1611,20,20,null,1279,20494,572
+1743658864939,663,HomePage,200,OK,Thread Group 1-7,text,true,,19902,805,20,20,https://demoblaze.com/index.html,614,0,287
+1743658842835,1328,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-7,,true,,22833,1611,20,20,null,1275,21481,576
+1743658865218,449,HomePage,200,OK,Thread Group 1-17,text,true,,19902,805,20,20,https://demoblaze.com/index.html,415,0,285
+1743658843975,1098,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-17,,true,,22833,1611,20,20,null,1060,20595,566
+1743658865298,476,HomePage,200,OK,Thread Group 1-18,text,true,,19902,805,20,20,https://demoblaze.com/index.html,426,0,294
+1743658843890,1124,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-18,,true,,22833,1611,20,20,null,1068,20760,588
+1743658865395,429,HomePage,200,OK,Thread Group 1-9,text,true,,5152,805,20,20,https://demoblaze.com/index.html,419,0,289
+1743658843221,1099,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-9,,true,,8083,1611,20,20,null,1083,21504,577
+1743658865563,463,HomePage,200,OK,Thread Group 1-20,text,true,,19902,805,20,20,https://demoblaze.com/index.html,414,0,285
+1743658844303,1100,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-20,,true,,22833,1611,20,20,null,1045,20623,573
+1743658865365,665,HomePage,200,OK,Thread Group 1-13,text,true,,19902,805,20,20,https://demoblaze.com/index.html,615,0,287
+1743658843441,1336,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-13,,true,,22833,1611,20,20,null,1282,21253,570
+1743658865778,454,HomePage,200,OK,Thread Group 1-12,text,true,,19902,805,20,20,https://demoblaze.com/index.html,402,0,276
+1743658844114,1131,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-12,,true,,22833,1611,20,20,null,1074,20988,569
+1743658865862,416,HomePage,200,OK,Thread Group 1-6,text,true,,5061,805,20,20,https://demoblaze.com/index.html,407,0,278
+1743658844459,1085,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-6,,true,,7992,1611,20,20,null,1072,20735,564
+1743658865983,467,HomePage,200,OK,Thread Group 1-5,text,true,,19902,805,20,20,https://demoblaze.com/index.html,417,0,290
+1743658844393,1116,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,22833,1611,20,20,null,1060,20942,572
+1743658866175,463,HomePage,200,OK,Thread Group 1-19,text,true,,19902,805,20,20,https://demoblaze.com/index.html,412,0,283
+1743658844130,1127,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-19,,true,,22833,1611,20,20,null,1069,21402,568
+1743658866756,469,HomePage,200,OK,Thread Group 1-11,text,true,,19902,805,20,20,https://demoblaze.com/index.html,419,0,289
+1743658844459,1146,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-11,,true,,22833,1611,20,20,null,1090,21620,575
+1743658867157,429,HomePage,200,OK,Thread Group 1-8,text,true,,5160,805,20,20,https://demoblaze.com/index.html,417,0,287
+1743658867211,427,HomePage,200,OK,Thread Group 1-16,text,true,,5242,805,20,20,https://demoblaze.com/index.html,415,0,285
+1743658846276,1076,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-16,,true,,8173,1611,20,20,null,1060,20294,568
+1743658844053,1097,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-8,,true,,8091,1611,20,20,null,1079,22496,583
+1743658868526,644,HomePage,200,OK,Thread Group 1-3,text,true,,4963,805,20,20,https://demoblaze.com/index.html,631,0,299
+1743658847195,1291,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,7894,1611,20,20,null,1272,20684,587
+1743658868915,635,HomePage,200,OK,Thread Group 1-14,text,true,,5090,805,20,20,https://demoblaze.com/index.html,625,0,287
+1743658847116,1291,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-14,,true,,8021,1611,20,20,null,1274,21144,578
+1743658874938,647,Product,200,OK,Thread Group 1-15,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=6,591,0,0
+1743658875071,541,Product,200,OK,Thread Group 1-1,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=6,442,0,0
+1743658875356,393,Product,200,OK,Thread Group 1-4,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=3,341,0,0
+1743658875467,394,Product,200,OK,Thread Group 1-10,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=5,350,0,0
+1743658875556,406,Product,200,OK,Thread Group 1-2,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=9,364,0,0
+1743658875668,352,Product,200,OK,Thread Group 1-17,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=8,342,0,0
+1743658875645,493,Product,200,OK,Thread Group 1-7,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=9,447,0,0
+1743658875775,363,Product,200,OK,Thread Group 1-18,text,true,,5668,811,20,20,https://demoblaze.com/prod.html?idp_=5,356,0,0
+1743658875824,511,Product,200,OK,Thread Group 1-9,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=9,414,0,0
+1743658876030,391,Product,200,OK,Thread Group 1-13,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=2,351,0,0
+1743658876026,433,Product,200,OK,Thread Group 1-20,text,true,,22097,811,20,20,https://demoblaze.com/prod.html?idp_=4,393,0,0
+1743658876233,390,Product,200,OK,Thread Group 1-12,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=3,348,0,0
+1743658876280,346,Product,200,OK,Thread Group 1-6,text,true,,5357,811,20,20,https://demoblaze.com/prod.html?idp_=3,337,0,0
+1743658876451,398,Product,200,OK,Thread Group 1-5,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=9,356,0,0
+1743658876659,392,Product,200,OK,Thread Group 1-19,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=3,353,0,0
+1743658877225,393,Product,200,OK,Thread Group 1-11,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=9,353,0,0
+1743658877646,242,Product,200,OK,Thread Group 1-16,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=9,146,0,0
+1743658877646,384,Product,200,OK,Thread Group 1-8,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=1,332,0,0
+1743658879174,360,Product,200,OK,Thread Group 1-3,text,true,,5495,811,20,20,https://demoblaze.com/prod.html?idp_=6,350,0,0
+1743658879567,472,Product,200,OK,Thread Group 1-14,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=1,361,0,0
+1743658885596,411,Add To Cart,200,OK,Thread Group 1-15,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,411,0,0
+1743658864939,1058,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-15,,true,,22400,1879,20,20,null,1002,20009,0
+1743658885627,385,Add To Cart,200,OK,Thread Group 1-1,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,385,0,0
+1743658865070,926,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,22400,1879,20,20,null,827,20016,0
+1743658885830,413,Add To Cart,200,OK,Thread Group 1-4,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,413,0,0
+1743658865356,806,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,22352,1879,20,20,null,754,20081,0
+1743658885876,405,Add To Cart,200,OK,Thread Group 1-10,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,405,0,0
+1743658865468,799,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-10,,true,,22352,1879,20,20,null,755,20014,0
+1743658885970,409,Add To Cart,200,OK,Thread Group 1-2,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,409,0,0
+1743658865555,815,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,22352,1879,20,20,null,773,20009,0
+1743658886032,397,Add To Cart,200,OK,Thread Group 1-17,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,397,0,0
+1743658865668,749,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-17,,true,,22352,1879,20,20,null,739,20012,0
+1743658886141,396,Add To Cart,200,OK,Thread Group 1-7,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,396,0,0
+1743658865645,889,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-7,,true,,22400,1879,20,20,null,843,20003,0
+1743658886141,404,Add To Cart,200,OK,Thread Group 1-18,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,404,0,0
+1743658865774,767,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-18,,true,,5971,1879,20,20,null,760,20004,0
+1743658886340,387,Add To Cart,200,OK,Thread Group 1-9,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,387,0,0
+1743658865824,898,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-9,,true,,22400,1879,20,20,null,801,20005,0
+1743658886432,400,Add To Cart,200,OK,Thread Group 1-13,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,400,0,0
+1743658866030,791,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-13,,true,,22352,1879,20,20,null,751,20011,0
+1743658886462,383,Add To Cart,200,OK,Thread Group 1-20,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,383,0,0
+1743658866026,816,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-20,,true,,22400,1879,20,20,null,776,20004,0
+1743658886633,397,Add To Cart,200,OK,Thread Group 1-6,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,397,0,0
+1743658886633,397,Add To Cart,200,OK,Thread Group 1-12,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,397,0,0
+1743658866279,743,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-6,,true,,5660,1879,20,20,null,734,20008,0
+1743658866233,787,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-12,,true,,22352,1879,20,20,null,745,20010,0
+1743658886851,371,Add To Cart,200,OK,Thread Group 1-5,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,371,0,0
+1743658866451,769,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,22352,1879,20,20,null,727,20002,0
+1743658887054,379,Add To Cart,200,OK,Thread Group 1-19,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,379,0,0
+1743658866659,771,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-19,,true,,22352,1879,20,20,null,732,20003,0
+1743658887627,384,Add To Cart,200,OK,Thread Group 1-11,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,384,0,0
+1743658867225,777,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-11,,true,,22352,1879,20,20,null,737,20009,0
+1743658887893,382,Add To Cart,200,OK,Thread Group 1-16,text,true,,307,1068,20,20,https://api.demoblaze.com/addtocart,382,0,0
+1743658867646,624,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-16,,true,,22356,1879,20,20,null,528,20005,0
+1743658888033,390,Add To Cart,200,OK,Thread Group 1-8,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,390,0,0
+1743658867646,774,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-8,,true,,22352,1879,20,20,null,722,20003,0
+1743658889541,368,Add To Cart,200,OK,Thread Group 1-3,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,368,0,0
+1743658869170,728,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,5798,1879,20,20,null,718,20011,0
+1743658890051,397,Add To Cart,200,OK,Thread Group 1-14,text,true,,303,1068,20,20,https://api.demoblaze.com/addtocart,397,0,0
+1743658869551,869,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-14,,true,,22352,1879,20,20,null,758,20028,0
+1743658896018,358,Extract Cart Items,200,OK,Thread Group 1-1,text,true,,673,1004,20,20,https://demoblaze.com/viewcart,356,0,0
+1743658896018,368,Extract Cart Items,200,OK,Thread Group 1-15,text,true,,627,1004,20,20,https://demoblaze.com/viewcart,365,0,0
+1743658896251,381,Extract Cart Items,200,OK,Thread Group 1-4,text,true,,508,1004,20,20,https://demoblaze.com/viewcart,381,0,0
+1743658896288,384,Extract Cart Items,200,OK,Thread Group 1-10,text,true,,658,1004,20,20,https://demoblaze.com/viewcart,383,0,0
+1743658896384,351,Extract Cart Items,200,OK,Thread Group 1-2,text,true,,581,1004,20,20,https://demoblaze.com/viewcart,349,0,0
+1743658896539,352,Extract Cart Items,200,OK,Thread Group 1-7,text,true,,695,1004,20,20,https://demoblaze.com/viewcart,348,0,0
+1743658896555,356,Extract Cart Items,200,OK,Thread Group 1-18,text,true,,655,1004,20,20,https://demoblaze.com/viewcart,356,0,0
+1743658896430,581,Extract Cart Items,200,OK,Thread Group 1-17,text,true,,546,1004,20,20,https://demoblaze.com/viewcart,575,0,0
+1743658896741,369,Extract Cart Items,200,OK,Thread Group 1-9,text,true,,529,1004,20,20,https://demoblaze.com/viewcart,369,0,0
+1743658896836,367,Extract Cart Items,200,OK,Thread Group 1-13,text,true,,656,1004,20,20,https://demoblaze.com/viewcart,365,0,0
+1743658896851,366,Extract Cart Items,200,OK,Thread Group 1-20,text,true,,651,1004,20,20,https://demoblaze.com/viewcart,364,0,0
+1743658897035,350,Extract Cart Items,200,OK,Thread Group 1-6,text,true,,571,1004,20,20,https://demoblaze.com/viewcart,347,0,0
+1743658897035,354,Extract Cart Items,200,OK,Thread Group 1-12,text,true,,593,1004,20,20,https://demoblaze.com/viewcart,350,0,0
+1743658897235,380,Extract Cart Items,200,OK,Thread Group 1-5,text,true,,492,1004,20,20,https://demoblaze.com/viewcart,380,0,0
+1743658897439,371,Extract Cart Items,200,OK,Thread Group 1-19,text,true,,526,1004,20,20,https://demoblaze.com/viewcart,367,0,0
+1743658898020,376,Extract Cart Items,200,OK,Thread Group 1-11,text,true,,568,1004,20,20,https://demoblaze.com/viewcart,374,0,0
+1743658898289,375,Extract Cart Items,200,OK,Thread Group 1-16,text,true,,717,1004,20,20,https://demoblaze.com/viewcart,372,0,0
+1743658898431,352,Extract Cart Items,200,OK,Thread Group 1-8,text,true,,494,1004,20,20,https://demoblaze.com/viewcart,348,0,0
+1743658899917,375,Extract Cart Items,200,OK,Thread Group 1-3,text,true,,689,1004,20,20,https://demoblaze.com/viewcart,371,0,0
+1743658900447,345,Extract Cart Items,200,OK,Thread Group 1-14,text,true,,577,1004,20,20,https://demoblaze.com/viewcart,340,0,0
+1743658906968,383,Cart,200,OK,Thread Group 1-15,text,true,,6049,804,20,20,https://demoblaze.com/cart.html,383,0,0
+1743658907337,444,Cart,200,OK,Thread Group 1-10,text,true,,5824,804,20,20,https://demoblaze.com/cart.html,444,0,0
+1743658907434,491,Cart,200,OK,Thread Group 1-1,text,true,,6089,804,20,20,https://demoblaze.com/cart.html,491,0,0
+1743658907480,446,Cart,200,OK,Thread Group 1-17,text,true,,5834,804,20,20,https://demoblaze.com/cart.html,445,0,0
+1743658907681,245,Cart,200,OK,Thread Group 1-6,text,true,,5983,804,20,20,https://demoblaze.com/cart.html,244,0,0
+1743658907720,505,Cart,200,OK,Thread Group 1-4,text,true,,5966,804,20,20,https://demoblaze.com/cart.html,505,0,0
+1743658907985,240,Cart,200,OK,Thread Group 1-18,text,true,,5740,804,20,20,https://demoblaze.com/cart.html,240,0,0
+1743658907904,345,Cart,200,OK,Thread Group 1-12,text,true,,5818,804,20,20,https://demoblaze.com/cart.html,339,0,0
+1743658907849,529,Cart,200,OK,Thread Group 1-20,text,true,,6087,804,20,20,https://demoblaze.com/cart.html,529,0,0
+1743658907901,477,Cart,200,OK,Thread Group 1-2,text,true,,5713,804,20,20,https://demoblaze.com/cart.html,477,0,0
+1743658908189,190,Cart,200,OK,Thread Group 1-7,text,true,,5965,804,20,20,https://demoblaze.com/cart.html,189,0,0
+1743658908191,188,Cart,200,OK,Thread Group 1-13,text,true,,5703,804,20,20,https://demoblaze.com/cart.html,188,0,0
+1743658907960,443,Cart,200,OK,Thread Group 1-9,text,true,,5935,804,20,20,https://demoblaze.com/cart.html,440,0,0
+1743658908639,137,Cart,200,OK,Thread Group 1-11,text,true,,6094,804,20,20,https://demoblaze.com/cart.html,129,0,0
+1743658908897,134,Cart,200,OK,Thread Group 1-19,text,true,,5830,804,20,20,https://demoblaze.com/cart.html,128,0,0
+1743658909212,134,Cart,200,OK,Thread Group 1-5,text,true,,5783,804,20,20,https://demoblaze.com/cart.html,129,0,0
+1743658909449,132,Cart,200,OK,Thread Group 1-16,text,true,,5963,804,20,20,https://demoblaze.com/cart.html,126,0,0
+1743658909622,137,Cart,200,OK,Thread Group 1-8,text,true,,5788,804,20,20,https://demoblaze.com/cart.html,131,0,0
+1743658911505,337,Cart,200,OK,Thread Group 1-3,text,true,,5754,804,20,20,https://demoblaze.com/cart.html,327,0,0
+1743658912194,148,Cart,200,OK,Thread Group 1-14,text,true,,5829,804,20,20,https://demoblaze.com/cart.html,141,0,0
+1743658917361,680,Delete Cart,200,OK,Thread Group 1-15,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,680,0,285
+1743658886008,1431,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-15,,true,,6988,2816,20,20,null,1428,30604,285
+1743658917791,700,Delete Cart,200,OK,Thread Group 1-10,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,700,0,289
+1743658886281,1528,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-10,,true,,6794,2816,20,20,null,1527,30683,289
+1743658917926,681,Delete Cart,200,OK,Thread Group 1-17,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,681,0,284
+1743658886429,1708,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-17,,true,,6692,2816,20,20,null,1701,30471,284
+1743658917926,691,Delete Cart,200,OK,Thread Group 1-1,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,691,0,295
+1743658886013,1540,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,7074,2816,20,20,null,1538,31065,295
+1743658917926,727,Delete Cart,200,OK,Thread Group 1-6,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,727,0,289
+1743658887030,1322,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-6,,true,,6866,2816,20,20,null,1318,30303,289
+1743658918236,673,Delete Cart,200,OK,Thread Group 1-18,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,673,0,287
+1743658886545,1269,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-18,,true,,6707,2816,20,20,null,1269,31096,287
+1743658918235,684,Delete Cart,200,OK,Thread Group 1-4,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,684,0,287
+1743658886243,1570,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-4,,true,,6786,2816,20,20,null,1570,31108,287
+1743658918260,677,Delete Cart,200,OK,Thread Group 1-12,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,677,0,296
+1743658887030,1376,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-12,,true,,6723,2816,20,20,null,1366,30533,296
+1743658918387,670,Delete Cart,200,OK,Thread Group 1-20,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,670,0,288
+1743658886846,1565,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-20,,true,,7050,2816,20,20,null,1563,30648,288
+1743658918387,677,Delete Cart,200,OK,Thread Group 1-13,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,677,0,284
+1743658886832,1232,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-13,,true,,6671,2816,20,20,null,1230,31001,284
+1743658918387,678,Delete Cart,200,OK,Thread Group 1-7,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,678,0,282
+1743658886538,1220,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-7,,true,,6972,2816,20,20,null,1215,31309,282
+1743658918387,680,Delete Cart,200,OK,Thread Group 1-2,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,680,0,296
+1743658886379,1508,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-2,,true,,6606,2816,20,20,null,1506,31182,296
+1743658918411,696,Delete Cart,200,OK,Thread Group 1-9,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,695,0,284
+1743658886727,1508,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-9,,true,,6776,2816,20,20,null,1504,30873,284
+1743658918782,656,Delete Cart,200,OK,Thread Group 1-11,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,656,0,290
+1743658888011,1169,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-11,,true,,6974,2816,20,20,null,1159,30260,290
+1743658919040,682,Delete Cart,200,OK,Thread Group 1-19,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,682,0,286
+1743658887433,1187,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-19,,true,,6668,2816,20,20,null,1177,31147,286
+1743658919357,682,Delete Cart,200,OK,Thread Group 1-5,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,681,0,288
+1743658887222,1196,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-5,,true,,6587,2816,20,20,null,1190,31622,288
+1743658919593,674,Delete Cart,200,OK,Thread Group 1-16,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,674,0,289
+1743658888275,1181,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-16,,true,,6992,2816,20,20,null,1172,30836,289
+1743658919768,667,Delete Cart,200,OK,Thread Group 1-8,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,667,0,285
+1743658888423,1156,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-8,,true,,6594,2816,20,20,null,1146,30857,285
+1743658921844,680,Delete Cart,200,OK,Thread Group 1-3,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,680,0,295
+1743658889909,1392,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-3,,true,,6755,2816,20,20,null,1378,31224,295
+1743658922347,698,Delete Cart,200,OK,Thread Group 1-14,text,true,,312,1008,20,20,https://api.demoblaze.com/deletecart,698,0,288
+1743658890447,1191,/cart.html,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-14,,true,,6718,2816,20,20,null,1179,31408,288
+1743658928052,0,Debug Sampler,200,OK,Thread Group 1-15,text,true,,736,0,20,20,null,0,0,0
+1743658928492,1,Debug Sampler,200,OK,Thread Group 1-10,text,true,,774,0,20,20,null,0,0,0
+1743658928612,1,Debug Sampler,200,OK,Thread Group 1-17,text,true,,768,0,20,20,null,0,0,0
+1743658928613,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,735,0,20,20,null,0,0,0
+1743658928666,0,Debug Sampler,200,OK,Thread Group 1-6,text,true,,650,0,20,20,null,0,0,0
+1743658928912,1,Debug Sampler,200,OK,Thread Group 1-18,text,true,,775,0,20,20,null,0,0,0
+1743658928928,0,Debug Sampler,200,OK,Thread Group 1-4,text,true,,650,0,20,20,null,0,0,0
+1743658928941,0,Debug Sampler,200,OK,Thread Group 1-12,text,true,,651,0,20,20,null,0,0,0
+1743658929058,0,Debug Sampler,200,OK,Thread Group 1-20,text,true,,715,0,20,20,null,0,0,0
+1743658929072,0,Debug Sampler,200,OK,Thread Group 1-2,text,true,,846,0,20,20,null,0,0,0
+1743658929072,0,Debug Sampler,200,OK,Thread Group 1-13,text,true,,656,0,20,20,null,0,0,0
+1743658929072,0,Debug Sampler,200,OK,Thread Group 1-7,text,true,,847,0,20,20,null,0,0,0
+1743658929111,1,Debug Sampler,200,OK,Thread Group 1-9,text,true,,847,0,20,20,null,0,0,0
+1743658929447,0,Debug Sampler,200,OK,Thread Group 1-11,text,true,,848,0,20,20,null,0,0,0
+1743658929763,0,Debug Sampler,200,OK,Thread Group 1-19,text,true,,651,0,20,20,null,0,0,0
+1743658930047,0,Debug Sampler,200,OK,Thread Group 1-5,text,true,,847,0,20,20,null,0,0,0
+1743658930286,1,Debug Sampler,200,OK,Thread Group 1-16,text,true,,847,0,20,20,null,0,0,0
+1743658930420,0,Debug Sampler,200,OK,Thread Group 1-8,text,true,,716,0,20,20,null,0,0,0
+1743658932533,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,735,0,20,20,null,0,0,0
+1743658933054,0,Debug Sampler,200,OK,Thread Group 1-14,text,true,,717,0,20,20,null,0,0,0
+1743658938496,660,Extract Product IDs,200,OK,Thread Group 1-10,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,656,0,284
+1743658938054,1124,Extract Product IDs,200,OK,Thread Group 1-15,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,1118,0,772
+1743658938614,660,Extract Product IDs,200,OK,Thread Group 1-17,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,654,0,284
+1743658938615,661,Extract Product IDs,200,OK,Thread Group 1-1,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,657,0,283
+1743658938679,657,Extract Product IDs,200,OK,Thread Group 1-6,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,654,0,283
+1743658938921,662,Extract Product IDs,200,OK,Thread Group 1-18,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,657,0,281
+1743658938934,660,Extract Product IDs,200,OK,Thread Group 1-4,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,655,0,289
+1743658938945,672,Extract Product IDs,200,OK,Thread Group 1-12,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,672,0,288
+1743658939063,661,Extract Product IDs,200,OK,Thread Group 1-20,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,658,0,290
+1743658939076,652,Extract Product IDs,200,OK,Thread Group 1-2,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,647,0,292
+1743658939076,656,Extract Product IDs,200,OK,Thread Group 1-13,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,653,0,292
+1743658939076,675,Extract Product IDs,200,OK,Thread Group 1-7,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,671,0,292
+1743658939116,653,Extract Product IDs,200,OK,Thread Group 1-9,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,647,0,282
+1743658939460,659,Extract Product IDs,200,OK,Thread Group 1-11,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,653,0,287
+1743658939773,658,Extract Product IDs,200,OK,Thread Group 1-19,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,652,0,287
+1743658940054,653,Extract Product IDs,200,OK,Thread Group 1-5,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,650,0,283
+1743658940304,647,Extract Product IDs,200,OK,Thread Group 1-16,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,643,0,288
+1743658940459,702,Extract Product IDs,200,OK,Thread Group 1-8,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,696,0,284
+1743658942544,659,Extract Product IDs,200,OK,Thread Group 1-3,text,true,,2935,806,20,20,https://api.demoblaze.com/entries,655,0,291
+1743658943055,659,Extract Product IDs,200,OK,Thread Group 1-14,text,true,,2931,806,20,20,https://api.demoblaze.com/entries,655,0,285
+1743658949343,711,HomePage,200,OK,Thread Group 1-6,text,true,,19902,805,20,20,https://demoblaze.com/index.html,663,0,321
+1743658928666,1368,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-6,,true,,22833,1611,20,20,null,1317,20020,604
+1743658949342,804,HomePage,200,OK,Thread Group 1-10,text,true,,19902,805,20,20,https://demoblaze.com/index.html,752,0,416
+1743658928493,1464,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-10,,true,,22833,1611,20,20,null,1408,20188,700
+1743658949698,657,HomePage,200,OK,Thread Group 1-15,text,true,,19902,805,20,20,https://demoblaze.com/index.html,606,0,284
+1743658928052,1781,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-15,,true,,22833,1611,20,20,null,1724,20521,1056
+1743658949963,464,HomePage,200,OK,Thread Group 1-20,text,true,,19902,805,20,20,https://demoblaze.com/index.html,415,0,288
+1743658929058,1125,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-20,,true,,22833,1611,20,20,null,1073,20243,578
+1743658949763,790,HomePage,200,OK,Thread Group 1-1,text,true,,19902,805,20,20,https://demoblaze.com/index.html,740,0,412
+1743658928613,1451,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,22833,1611,20,20,null,1397,20495,695
+1743658949994,665,HomePage,200,OK,Thread Group 1-9,text,true,,19902,805,20,20,https://demoblaze.com/index.html,617,0,291
+1743658929112,1318,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-9,,true,,22833,1611,20,20,null,1264,20228,573
+1743658950461,468,HomePage,200,OK,Thread Group 1-2,text,true,,19902,805,20,20,https://demoblaze.com/index.html,417,0,289
+1743658929072,1120,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,22833,1611,20,20,null,1064,20736,581
+1743658950514,463,HomePage,200,OK,Thread Group 1-7,text,true,,19902,805,20,20,https://demoblaze.com/index.html,413,0,285
+1743658929072,1138,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-7,,true,,22833,1611,20,20,null,1084,20766,577
+1743658950788,463,HomePage,200,OK,Thread Group 1-17,text,true,,19902,805,20,20,https://demoblaze.com/index.html,413,0,283
+1743658928613,1123,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-17,,true,,22833,1611,20,20,null,1067,21515,567
+1743658950813,460,HomePage,200,OK,Thread Group 1-11,text,true,,19902,805,20,20,https://demoblaze.com/index.html,411,0,282
+1743658929447,1119,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-11,,true,,22833,1611,20,20,null,1064,20707,569
+1743658950999,617,HomePage,200,OK,Thread Group 1-13,text,true,,5176,805,20,20,https://demoblaze.com/index.html,607,0,280
+1743658929072,1273,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-13,,true,,8107,1611,20,20,null,1260,21270,572
+1743658951286,460,HomePage,200,OK,Thread Group 1-12,text,true,,19902,805,20,20,https://demoblaze.com/index.html,412,0,284
+1743658928941,1132,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-12,,true,,22833,1611,20,20,null,1084,21672,572
+1743658951311,468,HomePage,200,OK,Thread Group 1-4,text,true,,19902,805,20,20,https://demoblaze.com/index.html,417,0,289
+1743658928928,1128,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,22833,1611,20,20,null,1072,21722,578
+1743658951168,626,HomePage,200,OK,Thread Group 1-19,text,true,,5166,805,20,20,https://demoblaze.com/index.html,622,0,284
+1743658929763,1284,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-19,,true,,8097,1611,20,20,null,1274,20746,571
+1743658951327,657,HomePage,200,OK,Thread Group 1-16,text,true,,19902,805,20,20,https://demoblaze.com/index.html,609,0,287
+1743658930287,1304,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-16,,true,,22833,1611,20,20,null,1252,20393,575
+1743658951352,638,HomePage,200,OK,Thread Group 1-18,text,true,,5149,805,20,20,https://demoblaze.com/index.html,628,0,294
+1743658928913,1300,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-18,,true,,8080,1611,20,20,null,1285,21777,575
+1743658951096,930,HomePage,200,OK,Thread Group 1-5,text,true,,19902,805,20,20,https://demoblaze.com/index.html,880,0,752
+1743658930047,1583,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,22833,1611,20,20,null,1530,20436,1035
+1743658951858,474,HomePage,200,OK,Thread Group 1-8,text,true,,19902,805,20,20,https://demoblaze.com/index.html,423,0,294
+1743658930448,1176,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-8,,true,,22833,1611,20,20,null,1119,20707,578
+1743658953841,427,HomePage,200,OK,Thread Group 1-3,text,true,,5159,805,20,20,https://demoblaze.com/index.html,416,0,286
+1743658932533,1086,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,8094,1611,20,20,null,1071,20649,577
+1743658954179,466,HomePage,200,OK,Thread Group 1-14,text,true,,19902,805,20,20,https://demoblaze.com/index.html,416,0,286
+1743658933054,1125,/index.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-14,,true,,22833,1611,20,20,null,1071,20465,571
+1743658960058,379,Product,200,OK,Thread Group 1-6,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=4,339,0,0
+1743658960151,358,Product,200,OK,Thread Group 1-10,text,true,,5505,811,20,20,https://demoblaze.com/prod.html?idp_=1,349,0,0
+1743658960357,387,Product,200,OK,Thread Group 1-15,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=7,345,0,0
+1743658960426,398,Product,200,OK,Thread Group 1-20,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=9,354,0,0
+1743658960662,174,Product,200,OK,Thread Group 1-9,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=9,132,0,0
+1743658960559,355,Product,200,OK,Thread Group 1-1,text,true,,5662,811,20,20,https://demoblaze.com/prod.html?idp_=3,348,0,0
+1743658960930,369,Product,200,OK,Thread Group 1-2,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=9,327,0,0
+1743658960978,395,Product,200,OK,Thread Group 1-7,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=4,355,0,0
+1743658961254,381,Product,200,OK,Thread Group 1-17,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=7,341,0,0
+1743658961273,385,Product,200,OK,Thread Group 1-11,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=3,342,0,0
+1743658961615,396,Product,200,OK,Thread Group 1-13,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=6,344,0,0
+1743658961745,389,Product,200,OK,Thread Group 1-12,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=5,349,0,0
+1743658961782,388,Product,200,OK,Thread Group 1-4,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=9,348,0,0
+1743658961992,186,Product,200,OK,Thread Group 1-18,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=7,136,0,0
+1743658961794,397,Product,200,OK,Thread Group 1-19,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=3,356,0,0
+1743658961986,393,Product,200,OK,Thread Group 1-16,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=4,350,0,0
+1743658962071,385,Product,200,OK,Thread Group 1-5,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=1,343,0,0
+1743658962332,378,Product,200,OK,Thread Group 1-8,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=2,336,0,0
+1743658964264,404,Product,200,OK,Thread Group 1-3,text,true,,22049,811,20,20,https://demoblaze.com/prod.html?idp_=8,355,0,0
+1743658954269,404,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,22049,811,20,20,null,355,9997,0
+1743658964640,187,Product,200,OK,Thread Group 1-14,text,true,,22049,811,19,19,https://demoblaze.com/prod.html?idp_=8,141,0,0
+1743658954645,187,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-14,,true,,22049,811,19,19,null,141,9997,0
+1743658970446,450,Add To Cart,200,OK,Thread Group 1-6,text,true,,303,1068,18,18,https://api.demoblaze.com/addtocart,450,0,0
+1743658950055,829,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-6,,true,,22352,1879,18,18,null,789,20012,0
+1743658970513,392,Add To Cart,200,OK,Thread Group 1-10,text,true,,303,1068,17,17,https://api.demoblaze.com/addtocart,392,0,0
+1743658950146,750,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-10,,true,,5808,1879,17,17,null,741,20010,0
+1743658970746,453,Add To Cart,200,OK,Thread Group 1-15,text,true,,303,1068,16,16,https://api.demoblaze.com/addtocart,453,0,0
+1743658950355,840,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-15,,true,,22352,1879,16,16,null,798,20004,0
+1743658970843,502,Add To Cart,200,OK,Thread Group 1-9,text,true,,303,1068,15,15,https://api.demoblaze.com/addtocart,502,0,0
+1743658970830,515,Add To Cart,200,OK,Thread Group 1-20,text,true,,303,1068,15,15,https://api.demoblaze.com/addtocart,515,0,0
+1743658950659,676,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-9,,true,,22352,1879,15,15,null,634,20013,0
+1743658950427,913,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-20,,true,,22352,1879,15,15,null,869,20008,0
+1743658970923,584,Add To Cart,200,OK,Thread Group 1-1,text,true,,303,1068,13,13,https://api.demoblaze.com/addtocart,584,0,0
+1743658950560,939,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,5965,1879,13,13,null,932,20008,0
+1743658971301,419,Add To Cart,200,OK,Thread Group 1-2,text,true,,303,1068,12,12,https://api.demoblaze.com/addtocart,419,0,0
+1743658950929,788,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,22352,1879,12,12,null,746,20003,0
+1743658971382,495,Add To Cart,200,OK,Thread Group 1-7,text,true,,303,1068,11,11,https://api.demoblaze.com/addtocart,495,0,0
+1743658950977,890,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-7,,true,,22352,1879,11,11,null,850,20010,0
+1743658971692,429,Add To Cart,200,OK,Thread Group 1-11,text,true,,303,1068,10,10,https://api.demoblaze.com/addtocart,429,0,0
+1743658971692,429,Add To Cart,200,OK,Thread Group 1-17,text,true,,303,1068,10,10,https://api.demoblaze.com/addtocart,429,0,0
+1743658951274,814,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-11,,true,,22352,1879,10,10,null,771,20033,0
+1743658951252,810,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-17,,true,,22352,1879,10,10,null,770,20059,0
+1743658972022,549,Add To Cart,200,OK,Thread Group 1-13,text,true,,303,1068,8,8,https://api.demoblaze.com/addtocart,549,0,0
+1743658951616,945,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-13,,true,,22352,1879,8,8,null,893,20011,0
+1743658972135,487,Add To Cart,200,OK,Thread Group 1-12,text,true,,303,1068,7,7,https://api.demoblaze.com/addtocart,487,0,0
+1743658951746,876,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-12,,true,,22352,1879,7,7,null,836,20000,0
+1743658972220,515,Add To Cart,200,OK,Thread Group 1-19,text,true,,303,1068,6,6,https://api.demoblaze.com/addtocart,515,0,0
+1743658972220,515,Add To Cart,200,OK,Thread Group 1-4,text,true,,303,1068,6,6,https://api.demoblaze.com/addtocart,515,0,0
+1743658972220,515,Add To Cart,200,OK,Thread Group 1-18,text,true,,303,1068,6,6,https://api.demoblaze.com/addtocart,515,0,0
+1743658951794,912,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-19,,true,,22352,1879,6,6,null,871,20029,0
+1743658951991,701,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-18,,true,,22352,1879,6,6,null,651,20043,0
+1743658951779,903,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,22352,1879,6,6,null,863,20053,0
+1743658972383,497,Add To Cart,200,OK,Thread Group 1-16,text,true,,303,1068,3,3,https://api.demoblaze.com/addtocart,497,0,0
+1743658951985,890,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-16,,true,,22352,1879,3,3,null,847,20005,0
+1743658972466,460,Add To Cart,200,OK,Thread Group 1-5,text,true,,303,1068,2,2,https://api.demoblaze.com/addtocart,460,0,0
+1743658952067,845,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,22352,1879,2,2,null,803,20014,0
+1743658972716,388,Add To Cart,200,OK,Thread Group 1-8,text,true,,303,1068,1,1,https://api.demoblaze.com/addtocart,388,0,0
+1743658952332,766,/prod.html,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-8,,true,,22352,1879,1,1,null,724,20006,0
